@@ -1,0 +1,19 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+.gradio/
+
+# Generated indexing artifacts
+*.pkl
