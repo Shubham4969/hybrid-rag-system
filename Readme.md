@@ -127,19 +127,19 @@ Their results can be combined using a method such as Reciprocal Rank Fusion (RRF
 
 ```text
 hybrid-rag-system/
-├── 1.Indexing/
-│   └── indexing.py
-├── Client/
-│   ├── __init__.py
-│   └── rq_client.py
-├── Queues/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── server.py
-│   └── worker.py
-├── .gitignore
-├── docker-composer.yml
-└── README.md
+â”œâ”€â”€ 1.Indexing/
+â”‚   â””â”€â”€ indexing.py
+â”œâ”€â”€ Client/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â””â”€â”€ rq_client.py
+â”œâ”€â”€ Queues/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ main.py
+â”‚   â”œâ”€â”€ server.py
+â”‚   â””â”€â”€ worker.py
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ docker-composer.yml
+â””â”€â”€ README.md
 ```
 
 Additional modules such as `Retrieval/`, `Ingestion/`, and `requirements.txt` can be added as the project grows.
